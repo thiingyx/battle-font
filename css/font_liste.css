@@ -1,0 +1,26 @@
+
+@font-face {
+  font-family: 'recursive';
+  src: url(../font/recursive/Recursive_VF_1.085.woff2) format('woff2');
+  
+   /*
+  axes : 
+  "MONO" : typo chasse fixe ou variable (0-1)
+   "CASL" : géométrique ou arrondie (0-1)
+   "wght" : graisse (300-1000)
+   "slnt" : italic ((-15) - 0)
+  */
+}
+
+
+@font-face {
+  font-family: 'handjet';
+  src: url(../font/handjet/handjet.woff2) format('woff2');
+   /*
+  axes : 
+  "ELRG" : Motif (0-16)
+  "wght" : graisse (100-900)
+  "ELSH": (laisser toujours 1);
+  */
+}
+

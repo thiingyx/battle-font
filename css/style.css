@@ -1,0 +1,462 @@
+.recursive{
+  font-family: 'recursive';
+  color: white;
+}
+
+.handjet{
+  font-family: 'handjet';
+  color: white;
+} 
+  
+
+body{
+  width: 100vw;
+  background-color:white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+main{
+  display: block;
+  position: relative;
+  width: 1700px;
+  overflow-x: hidden;
+  background-color:black;
+  height: 100vh;
+
+}
+
+#grumph{
+font-size: 150px;
+position:absolute;
+left: 35%;
+top:50%;
+font-variation-settings: "slnt" -15, "wght" 500;
+}
+
+#grumph:hover{
+  animation-name: grumph;
+  animation-duration: 3s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes grumph{
+
+
+  0%{
+    position:absolute;
+    font-variation-settings: "wght"550,"slnt" -15;
+    font-size: 250px;
+    left: 25%;
+    top:46%;
+  }
+  
+   50%{ 
+    font-variation-settings: "wght"550,"slnt" -15;
+    font-size: 400px;
+    left: 0%;
+    top:38%;
+    color: rgb(182, 175, 175);
+  }
+
+  100%{
+    font-variation-settings: "wght"1000,"slnt" -15;
+    font-size: 300px;
+    left: 15%;
+    top:42%;
+  }
+
+}
+
+
+@keyframes tictac {
+  0%{ 
+    font-size: 100px;
+    }
+
+    100%{
+      font-size: 250px;
+      }
+    }
+
+
+
+#Tic1{
+  font-size: 200px;
+  font-variation-settings:"ELSH"8, "ELGR" 1, "wght" 500;
+  transform: rotate(-15deg);
+  position: absolute;
+  left: 35%;
+  animation-name : tictac;
+animation-duration: 1s;
+animation-iteration-count: 1;
+animation-fill-mode: initial;
+animation-delay : 0s;
+}
+
+
+
+#Tac1{
+font-size: 200px;
+font-variation-settings: "ELGR" 1, "wght" 500, "ELSH"8;
+transform: rotate(15deg);
+position: absolute;
+left: 55%;
+top: 3%;
+animation-name:tictac;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: initial;
+  animation-delay : 1s;
+  }
+
+
+#Tic2{
+  font-size: 150px;
+  font-variation-settings: "ELGR" 1, "wght" 500, "ELSH"8;
+  transform: rotate(60deg);
+  position: absolute;
+  left:75%;
+  top: 35%;
+  animation-name:tictac;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: initial;
+  animation-delay : 2s;
+}
+
+
+#Tac2{
+font-size: 150px;
+font-variation-settings: "ELGR"1, "wght" 500, "ELSH"8;
+transform: rotate(110deg);
+position: absolute;
+left: 70%;
+top:70%;
+animation-name:tictac;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: initial;
+  animation-delay : 3s;
+}
+
+
+#Tic3{
+  font-size: 100px;
+  font-variation-settings: "ELGR" 1, "wght" 500, "ELSH"8;
+  transform: rotate(150deg);
+  position: absolute;
+  left: 55%;
+  top:95%;
+  animation-name:tictac;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: initial;
+    animation-delay : 4s;
+  }
+
+
+#Tac3{
+  font-size: 100px;
+  font-variation-settings:"ELSH"8, "ELGR" 1, "wght" 500;
+  transform: rotate(190deg);
+  position: absolute;
+  left: 40%;
+  top:95%;
+  animation-name:tictac;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: initial;
+  animation-delay : 5s;
+}
+
+
+#Tic4{
+  font-size: 75px;
+  font-variation-settings: "ELGR"1, "wght" 500, "ELSH"8;
+  transform: rotate(250deg);
+  position: absolute;
+  left: 28%;
+  top:73%;
+  animation-name:tictac;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: initial;
+    animation-delay : 6s;
+  }
+  
+
+
+#Tac4{
+  font-size: 75px;
+  font-variation-settings: "ELGR" 1, "wght" 500, "ELSH"8;
+  transform: rotate(280deg);
+  position: absolute;
+  left:28%;
+  top: 45%;
+  animation-name:tictac;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: initial;
+  animation-delay : 7s;
+}
+
+
+
+#Tic5{
+  font-size: 25px;
+  font-variation-settings:"ELSH"8, "ELGR" 1, "wght" 500;
+  transform: rotate(-15deg);
+  position: absolute;
+  left: 40%;
+  top:30%;
+  animation-name:tictac;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: initial;
+  animation-delay : 8s;
+}
+
+
+#Tac5{
+font-size: 25px;
+font-variation-settings: "ELGR" 1, "wght" 500, "ELSH"8;
+transform: rotate(15deg);
+position: absolute;
+left: 55%;
+top:30%;
+animation-name:tictac;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: initial;
+  animation-delay : 9s;
+}
+
+
+#bla1{
+font-size: 200px;
+position: absolute;
+top:235%;
+font-variation-settings: "snlt"-15, "wght" 700, "CASL" 1, "MONO" 0;
+animation: blablabla1 5s linear infinite;
+
+}
+
+#bla2{
+  font-size: 200px;
+  position: absolute;
+  font-variation-settings: "snlt"-15, "wght" 700, "CASL" 1,"MONO" 0;
+  animation: blablabla2 5s linear infinite;
+top:260%;
+  }
+
+  #bla3{
+    font-size: 200px;
+    position: absolute;
+    font-variation-settings: "snlt" -15, "wght" 700, "CASL" 1,"MONO" 0;
+    animation: blablabla1 5s linear infinite;
+top:284%;
+    }
+
+
+@keyframes blablabla1 {
+  0%{
+    position:absolute;
+left:-100%;
+  }
+
+  100%{
+  position:absolute;
+  left:100%;
+  }
+
+}
+
+@keyframes blablabla2 {
+  0%{
+    position:absolute;
+left:100%;
+  }
+
+  100%{
+  position:absolute;
+  left:-100%;
+  }
+
+}
+
+
+
+#HIC1{
+font-size: 300px;
+font-variation-settings: "ELSH" 1, "ELGR"1, "wght" 700 ;
+position: absolute;
+top: 235%;
+left: 15%;
+transform: rotate(-25deg);
+color: red;
+z-index: 1;
+opacity: 0;
+animation: Hic 3s infinite step-start;
+animation-duration: 2s;
+}
+
+#HIC2{
+  font-size: 100px;
+  font-variation-settings: "ELSH" 1, "ELGR"1, "wght" 700 ;
+  position: absolute;
+  top: 265%;
+left: 45%;
+transform: rotate(15deg);
+  color: red;
+  z-index: 1;
+  opacity: 0;
+animation: Hic 3s infinite step-start;
+animation-duration: 1s;
+  }
+
+  #HIC3{
+    font-size: 225px;
+    font-variation-settings: "ELSH" 1, "ELGR"1, "wght" 700;
+    position: absolute;
+    top: 280%;
+left: 75%;
+transform: rotate(35deg);
+    color: red;
+    z-index: 1;
+    opacity: 0;
+    animation: Hic 3s infinite step-start;
+    animation-duration: 3s;
+
+    }
+
+    #HIC4{
+      font-size: 75px;
+      font-variation-settings: "ELSH" 1, "ELGR"1, "wght" 700;
+      position: absolute;
+      top: 290%;
+left: 33%;
+transform: rotate(-5deg);
+      color: red;
+      z-index: 1;
+      opacity: 0;
+      animation: Hic 3s infinite step-start;
+      animation-duration: 4s;
+      }
+
+      #HIC5{
+        font-size: 199px;
+        font-variation-settings: "ELSH" 1, "ELGR"1, "wght" 700;
+        position: absolute;
+        top: 240%;
+        left: 60%;
+        transform: rotate(5deg);
+        color: red;
+        z-index: 1;
+        opacity: 0;
+        animation: Hicv2 3s infinite step-start;
+        animation-duration: 4s;
+        }
+
+
+
+@keyframes Hic {
+  0% {
+    opacity: 0;  /* Commence invisible */
+  }
+  50% {
+    opacity: 1;  /* Deviens visible */
+  }
+
+  100% {
+    opacity: 0;  /* Disparait à la fin */
+  }
+}
+
+
+@keyframes Hicv2 {
+  0% {
+    opacity: 0;  /* Commence invisible */
+  }
+  20% {
+    opacity: 1;  /* Deviens visible */
+  }
+
+  100% {
+    opacity: 0;  /* Disparait à la fin */
+  }
+}
+
+#aie {
+color: grey;
+font-size: 150px;
+position: absolute;
+left:55%;
+top:170%;
+animation: aie 2s ease-in-out infinite, horizontal-shaking 100ms ease-in-out infinite;
+
+}
+
+
+@keyframes horizontal-shaking {
+  0% { transform: translateX(0) }
+  25% { transform: translateX(5px) }
+  50% { transform: translateX(-5px) }
+  75% { transform: translateX(5px) }
+  100% { transform: translateX(0) }
+ }
+
+
+ @keyframes aie {
+
+  0%{
+    left: -10%;
+ }
+
+100% {
+left: 55%;
+}
+ }
+
+
+#Calque_2 {
+	font-size : 75px;
+  font-family: 'recursive';
+  font-variation-settings: 'CASL'0;
+  width: 50%; 
+  height: 150%;
+  position: absolute;
+  top:100%;
+  left:30%
+ }
+
+ #Calque_2 text {
+  fill: white;
+  animation-name: dégradé ;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes dégradé {
+  0% {
+  fill:rgb(251, 4, 4);
+}
+
+25% {
+  fill: rgb(255, 191, 0) ;
+}
+
+50% {
+  fill: rgb(255, 242, 0)
+}
+
+75% {
+fill: rgb(0, 251, 255);
+}
+
+100% {
+  fill: rgb(255, 0, 234);
+}
+}
