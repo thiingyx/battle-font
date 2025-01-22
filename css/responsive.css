@@ -1,0 +1,81 @@
+@media (max-width: 800px) {
+    /*apparence différente pour une page inférieure à 800px*/
+    #forme1{
+        position: fixed;
+        top: 175px ;
+        left: 300px;
+        width:200px;
+        height: 200px;
+      }
+      
+      #forme2{
+        position: fixed;
+        top: 100px ;
+        left: 150px;
+        width: 150px;
+        height:150px;
+      }
+      
+      #forme3{
+        position: fixed;
+        top: 125px ;
+        left: 515px;
+        width: 100px;
+        height: 100px;
+      }
+    }
+    
+    @media (max-width: 1000px) and (min-width :800px){
+    /*apparence différente pour une page comprise entre 800px et 1000px*/
+    #forme1{
+        position: fixed;
+        top: 275px ;
+        left:350px;
+        width: 300px;
+        height:300px;
+      }
+      
+      #forme2{
+        position: fixed;
+        top: 150px ;
+        left: 200px;
+        width:200px;
+        height: 200px;
+      }
+      
+      #forme3{
+        position: fixed;
+        top: 175px;
+        left:575px;
+        width:150px;
+        height:150px;
+      }
+    }
+    
+    @media (min-width :1800px){
+    /*apparence différente pour une page supérieure à 1800px*/
+    #forme1{
+        position: fixed;
+        top: 250px ;
+        left: 600px;
+        width: 500px;
+        height: 500px;
+      }
+      
+      #forme2{
+        position: fixed;
+        top: 5px ;
+        left: 250px;
+        width: 450px;
+        height: 450px;
+      }
+      
+      #forme3{
+        position: fixed;
+        top: 25px ;
+        left: 1000px;
+
+        width: 400px;
+        height: 400px;
+      }
+    }
